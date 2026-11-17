@@ -1,0 +1,62 @@
+{
+  "positive": {
+    "text": "I absolutely love this update!",
+    "status": "ready",
+    "exception": null,
+    "table": [
+      [
+        "RoBERTa-base · fine-tuned",
+        "Positive",
+        "94,87%",
+        "3,20%",
+        "1,92%",
+        "94,87%"
+      ]
+    ]
+  },
+  "negative": {
+    "text": "This is the worst customer service ever.",
+    "status": "ready",
+    "exception": null,
+    "table": [
+      [
+        "RoBERTa-base · fine-tuned",
+        "Negative",
+        "93,91%",
+        "93,91%",
+        "3,01%",
+        "3,08%"
+      ]
+    ]
+  },
+  "negation": {
+    "text": "The movie wasn't as bad as I expected.",
+    "status": "ready",
+    "exception": null,
+    "table": [
+      [
+        "RoBERTa-base · fine-tuned",
+        "Positive",
+        "44,43%",
+        "16,50%",
+        "39,07%",
+        "44,43%"
+      ]
+    ]
+  },
+  "irony": {
+    "text": "Oh wonderful, my flight got delayed again.",
+    "status": "ready",
+    "exception": null,
+    "table": [
+      [
+        "RoBERTa-base · fine-tuned",
+        "Negative",
+        "36,22%",
+        "36,22%",
+        "33,66%",
+        "30,12%"
+      ]
+    ]
+  }
+}

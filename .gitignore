@@ -1,0 +1,16 @@
+﻿.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.streamlit/secrets.toml
+
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.joblib
+
+app_backup.py
+test_models.py

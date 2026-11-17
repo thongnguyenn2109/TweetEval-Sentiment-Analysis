@@ -1,0 +1,44 @@
+# Theme for TweetEval · Sentiment Lab
+# Supports the light/dark toggle; chart colors follow the report's
+# sentiment palette (Negative/Neutral/Positive) for consistent charts.
+
+[theme]
+showWidgetBorder = true
+baseRadius = "10px"
+buttonRadius = "10px"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+headingFont = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap"
+linkUnderline = false
+chartCategoricalColors = ["#ef476f", "#f4a261", "#06d6a0", "#0284c7", "#8250df", "#57606a"]
+
+[theme.light]
+primaryColor = "#0284c7"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f1f5f9"
+textColor = "#0f172a"
+borderColor = "#e2e8f0"
+linkColor = "#0284c7"
+
+[theme.dark]
+primaryColor = "#38bdf8"
+backgroundColor = "#0b1220"
+secondaryBackgroundColor = "#111827"
+textColor = "#e5e7eb"
+borderColor = "#1f2937"
+linkColor = "#38bdf8"
+
+[theme.light.sidebar]
+backgroundColor = "#f8fafc"
+secondaryBackgroundColor = "#eef2f7"
+textColor = "#0f172a"
+borderColor = "#e2e8f0"
+primaryColor = "#0284c7"
+linkColor = "#0284c7"
+
+[theme.dark.sidebar]
+backgroundColor = "#0f172a"
+secondaryBackgroundColor = "#1e293b"
+textColor = "#e5e7eb"
+borderColor = "#1f2937"
+primaryColor = "#38bdf8"
+linkColor = "#38bdf8"
